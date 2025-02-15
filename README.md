@@ -1,4 +1,10 @@
 # ALIVIO LANDING
 
-### Everyone experiences stress in different ways.
-### Let Alivio guide you, in a personalized journal experience, to overcome your stress.
+[Ссылка на макет в фигме](https://www.figma.com/file/YV64X37MWjbjddYZpy16Nk/Alivio_stress_overcome)
+
+```
+Everyone experiences stress in different ways.
+Let Alivio guide you, in a personalized journal experience, to overcome your stress.
+
+```
+
