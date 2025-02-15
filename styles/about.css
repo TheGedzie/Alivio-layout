@@ -55,7 +55,7 @@
 		justify-content: start;
 		}
 	.about__cards .card:nth-child(2){
-		margin: 30px;
+		margin: 0 0 35px 0;
 		}
 }
 @media(max-width:576px){

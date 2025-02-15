@@ -20,11 +20,36 @@
 	align-items: start;
 	row-gap: 60px;
 }
-.pricing__nav-item {
-}
 .pricing__nav-link {
 	font-weight: 600;
 	font-size: 25px;
+	position: relative;
+}
+.pricing__nav-link::after{
+	content:"";
+	height: 1px;
+	width: 0%;
+	background: var(--clr-dark-black);
+	right: 0;
+	position: absolute;
+	transition:width .33s;
+	top: -3px;
+}
+.pricing__nav-link:hover.pricing__nav-link::after {
+	width: 100%;
+}
+.pricing__nav-link::before{
+	content:"";
+	height: 1px;
+	width: 0%;
+	background: var(--clr-dark-black);
+	left: 0;
+	position: absolute;
+	transition:width .33s;
+	top:35px;
+}
+.pricing__nav-link:hover.pricing__nav-link::before {
+	width: 100%;
 }
 @media(max-width: 990px){
 	.pricing__title {
