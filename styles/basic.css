@@ -1,6 +1,10 @@
+html{
+  scroll-behavior: smooth;
+}
 body{
     font-family: "Lato", serif;
     background-color:var(--clr-white);
+    scroll
 }
 .container{
   max-width: 1400px;
