@@ -1,0 +1,83 @@
+.persone-card {
+	width: 300px;
+	height: 290px;
+	border-radius:5px;
+	box-shadow: 2px 2px 5px 0 rgba(0, 0, 0,.3);
+	overflow: hidden;
+	position: absolute;
+	top: 350px;
+	left: 5px;
+	background: var(--clr-white);
+	display: flex;
+	justify-self: start;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px 0;
+	gap:20px;
+	color: var(--clr-blck);
+}
+.persone-card__title {
+	font-weight: 600;
+	font-size: 15px;
+	position: relative;
+}
+.persone-card__title::after {
+	content:"";
+	background: var(--clr-blck);
+	width: 110px;
+	height: 1px;
+	top:25px;
+	left: -2px;
+	position: absolute;
+}
+.persone-card__preview {
+	border-radius: 50%;
+	width: 75px;
+	height: 75px;
+	overflow:hidden;
+}
+.persone-card__preview-img {
+	width: 120px;
+	height: 120px;
+	object-fit: cover;
+	object-position: -30px -10px;
+}
+.persone-card__name {
+	font-size: 12px;
+	font-weight: 400;
+}
+.persone-card__desc {}
+.persone-card__subtitle {
+	font-size: 16px;
+	font-weight: 700;
+}
+.persone-card__list {
+	margin: 15px 0 0 15px;
+}
+.persone-card__item {
+	font-size: 10px;
+	font-weight: 400;
+	list-style: disc;
+	margin: 15px 0;
+}
+@media(max-width: 1050px){
+	.persone-card{
+		width: 250px;
+		height: 240px;
+		gap:10px;
+	}
+	.persone-card__title::after {
+		top:19px;
+		left: -2px;
+	}
+
+	.persone-card__preview {
+		width: 45px;
+		height: 45px;
+	}
+	.persone-card__preview-img {
+		width: 80px;
+		height: 80px;
+		object-position: -22px -14px;
+	}
+}
